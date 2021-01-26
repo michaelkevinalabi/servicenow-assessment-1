@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiceNow Assessment</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="overlay"></div>
+    
+    <div class="container home-page">
+    <h1>Hi!</h1>
+
+    <h2>Click on a button to see my learning experience or challenges.</h2>
+
+    
+       
+        <button id="myBtn1" class="experience" onclick="experience()">EXPERIENCE</button>
+        <button id="myBtn2" class="challenges" onclick="challenges()">CHALLENGES</button>
+      </div>
+
+
+
+      <div id="myModal1" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <h1>Experience</h1>
+        <ol>
+            <li>User friendly</li>
+            <li>Identify the components of the ServiceNow user interface</li>
+            <li>Use filters to display a subset of a table's records</li>
+            <li>Open and use forms to create and edit records</li>
+          </ol>
+          <button id="mod1" class="close">Close</button>
+
+        </div>
+     </div>
+        <div id="myModal2" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <h1>Challenges</h1>
+              <p><ol>
+                 <li> The platform takes a long time to load when the network is slow</li>
+                  <li>The cookies for the user authentification expires quickly</li>
+              </ol></p>
+              <button id="mod2" class="close">Close</button>
+
+            </div>
+       </div>
+
+     <script src="index.js"></script>
+</body>
+</html>
